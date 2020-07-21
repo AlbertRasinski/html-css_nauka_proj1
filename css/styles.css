@@ -1,0 +1,119 @@
+@font-face{
+    font-family: 'BasicText';
+    src: url('../fonts/JosefinSans-Regular.ttf') format('truetype');
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+    margin: 10px;
+    min-width: 1000px;
+    min-height: 940px;
+
+    border-width: 5px;
+    border-style: double;
+    border-radius: 4px;
+
+    text-align: center;
+}
+h1{
+    font-family: 'Graduate', cursive;
+    margin: -12px;
+}
+h1.the{
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 36px;
+}
+h1.ANALOG{
+    font-size: 60px;
+}
+h1.SPECIALISTS{
+    font-weight: lighter;
+    font-size: 36px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.menu{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 3px;
+    border-bottom-width: 2px;
+    width: 900px;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+a.a_menu{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+a.a_menu:hover,a.linkMail:hover{
+    color:rgb(219, 148, 67);
+    text-decoration: underline;
+}
+a.a_menu:active,a.linkMail:active{
+    color:rgb(209, 114, 5);
+}
+.ContentOfHome{
+    padding: 30px;
+    font-family: 'BasicText';
+    font-size: 24px;
+}
+.HomeText{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+ul{
+    text-align: center;
+    list-style: inside;
+    font-family: 'BasicText';
+    font-size: 24px;
+    list-style-image: url("../images/point.png");
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+thead{
+    text-transform: uppercase;
+    border-width: 3px;
+    border-bottom-style: solid;
+    background-color: rgb(224, 224, 224);
+}
+th,td{
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+}
+th{
+    border-bottom-style: double;
+    font-family: 'Raleway', sans-serif;
+}
+td{
+    font-family: 'BasicText'; 
+}
+.even{
+    background-color: rgb(224, 224, 224);
+}
+td:hover{
+    background-color: rgb(235, 177, 112);
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
+}
+p{
+    font-family: 'BasicText';
+    font-size: 18px;
+}
+a.linkMail{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
